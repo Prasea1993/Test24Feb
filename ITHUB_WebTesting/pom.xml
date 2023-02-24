@@ -50,7 +50,7 @@
   
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>CI-CDDemo.xml</suiteXmlFile>
+              <suiteXmlFile>CI-CDDemo2.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>
