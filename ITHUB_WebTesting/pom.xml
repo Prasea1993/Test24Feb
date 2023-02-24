@@ -37,6 +37,37 @@
       </plugins>
       </build>
      </profile>
+     
+     
+     <profile>
+      <id>CI-CDDemo2</id>
+      <build>
+        <plugins>
+        <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M8</version>
+  
+          <configuration>
+            <suiteXmlFiles>
+              <suiteXmlFile>CI-CDDemo.xml</suiteXmlFile>
+            </suiteXmlFiles>
+          </configuration>
+        </plugin>
+        
+        <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <configuration>
+        <source>1.8</source>
+        <target>1.8</target>
+    </configuration>
+  </plugin>
+      </plugins>
+      </build>
+     </profile>
+     
+     
    </profiles>
    
    
