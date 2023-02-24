@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-24T18:40:07 IST" name="Suite" finished-at="2023-02-24T18:40:19 IST" duration-ms="12338">
+    <groups>
+    </groups>
+    <test started-at="2023-02-24T18:40:07 IST" name="Test" finished-at="2023-02-24T18:40:19 IST" duration-ms="12338">
+      <class name="app_Tests.HomePageTest">
+        <test-method signature="homepageTest()[pri:0, instance:app_Tests.HomePageTest@6a84a97d]" started-at="2023-02-24T18:40:07 IST" name="homepageTest" finished-at="2023-02-24T18:40:11 IST" duration-ms="3944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:app_Tests.HomePageTest@6a84a97d]" started-at="2023-02-24T18:40:11 IST" name="terminate" finished-at="2023-02-24T18:40:11 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- app_Tests.HomePageTest -->
+      <class name="app_Tests.EmployerPageTest">
+        <test-method signature="homepageTest()[pri:0, instance:app_Tests.EmployerPageTest@3232a28a]" started-at="2023-02-24T18:40:11 IST" name="homepageTest" finished-at="2023-02-24T18:40:14 IST" duration-ms="3580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:app_Tests.EmployerPageTest@3232a28a]" started-at="2023-02-24T18:40:14 IST" name="terminate" finished-at="2023-02-24T18:40:14 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- app_Tests.EmployerPageTest -->
+      <class name="app_Tests.ContactPageTest">
+        <test-method signature="homepageTest()[pri:0, instance:app_Tests.ContactPageTest@73e22a3d]" started-at="2023-02-24T18:40:14 IST" name="homepageTest" finished-at="2023-02-24T18:40:19 IST" duration-ms="4557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTest -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:app_Tests.ContactPageTest@73e22a3d]" started-at="2023-02-24T18:40:19 IST" name="terminate" finished-at="2023-02-24T18:40:19 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- app_Tests.ContactPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
